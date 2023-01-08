@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Failure code"
-          command: return 1
+          command: exit 1
 
       - run:
           name: Upload Failed Tests
